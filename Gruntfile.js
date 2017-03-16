@@ -2,7 +2,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     sass: {
       options: {
-        outputStyle: 'expanded'
+        outputStyle: 'expanded',
       },
       dist: {
         files: [{
@@ -11,7 +11,7 @@ module.exports = function(grunt) {
           cwd:'assets/sass/',
           src: '**/*.scss',
           dest: 'assets/css',
-          ext: 'css'
+          ext: '.css'
         }]
       }
     },
