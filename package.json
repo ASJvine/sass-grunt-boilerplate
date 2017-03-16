@@ -1,0 +1,10 @@
+{
+  "name": "sass-grunt-template",
+  "description": "boilerplate to test UI before starting to code the full website",
+  "private": true,
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
